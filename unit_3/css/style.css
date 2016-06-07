@@ -1,10 +1,45 @@
-*{
-	padding: 0;
-	margin: 0;
-}
+
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 20px;
-	color: #ffffff;
-	background-image: images/woodgrain.jpg;
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1926698_1511741922467875_3327760109430242279_n.jpg?oh=5a5e4ca89f616a8feb49571ce6edf19c&oe=580E8784");
+	background-color: #bbbbbb;
+}
+
+header {
+	text-align: left;
+	background-color: #35A67C;
+	padding: 20px;
+}
+
+a {
+	color: #35A67C;
+	text-decoration: none;
+	font-weight: bold;	
+}
+
+ul {
+	padding-left: 20px;
+}
+
+#logo {
+	float: right;
+}
+#etsy {
+	color: #000000;
+}
+
+section {
+	background-color: #000000;
+	text-align: center;
+	color: #35A67C;
+}
+
+main {
+	background-color: #35A67C;
+}
+
+footer {
+	text-align: center;
+	background-color: #000000;
 }
