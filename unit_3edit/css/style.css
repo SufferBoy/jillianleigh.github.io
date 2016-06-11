@@ -1,9 +1,12 @@
-* {
+/** {
 	padding: 0;
 	margin: 0;
-}
+}*/
+
+@import url(https://fonts.googleapis.com/css?family=Puritan:400,700,400italic,700italic|Peralta);
+
 body {
-	font-family: "berlin sans fb", sans-serif;
+	font-family: puritan, "berlin sans fb", sans-serif;
 	font-size: 18px;
 	background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1926698_1511741922467875_3327760109430242279_n.jpg?oh=5a5e4ca89f616a8feb49571ce6edf19c&oe=580E8784");
 	background-color: #AEAEAE; opacity: .95;
@@ -11,6 +14,10 @@ body {
 	padding-bottom: 20px;	
 	padding-right: 60px;
 	padding-left: 60px;
+}
+
+h1 {
+	font-family: peralta, "berlin sans fb", sans-serif;
 }
 
 header {
