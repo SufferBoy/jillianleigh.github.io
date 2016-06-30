@@ -4,7 +4,7 @@ body {
 	font-family: puritan, "berlin sans fb", sans-serif;
 	font-size: 18px;
 	background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1926698_1511741922467875_3327760109430242279_n.jpg?oh=5a5e4ca89f616a8feb49571ce6edf19c&oe=580E8784");
-	background-color: rgba(174, 174, 174, 0.51);
+/*	background-color: rgba(174, 174, 174, 0.51);*/
 	background-attachment: fixed;
 	opacity: .95;
 	text-align: center;
@@ -12,48 +12,47 @@ body {
 }
 
 header {
-	background-color: rgba(255, 237, 116, 1);
-	border: 1px black solid;
+/*	background-color: rgba(255, 237, 116, 1);*/
+/*	border: 1px black solid;*/
 	padding: 20px;
 }
 
 nav {
-    background-color: rgb(232, 198, 106);
-    border: 1px black solid;
+/*    background-color: rgb(232, 198, 106);*/
+ /*   border: 1px black solid;*/
     padding: 20px;
 }
 
 aside {
-    background-color: #FFC675;
-    border: 1px black solid;
+/*    background-color: #FFC675;*/
+ /*   border: 1px black solid;*/
     padding: 20px;
 }
 
 article {
-    background-color: #E89C6C;
-    border: 1px black solid;
+  /*  background-color: #E89C6C;*/
+/*    border: 1px black solid;*/
     padding: 20px;
 }
 
 .wrapper {
-	background-color: rgba(174, 174, 174, 1);
-	border: 1px black solid;
+	background-color: #AEAEAE;
 	padding: 20px;
 	width: 50em;
 	margin:auto;
 }
 
 section {
-	background-color: #FFE2B8;
-	color: #89AB93;
-	border: 1px black solid;
+/*	background-color: #FFE2B8;*/
+/*	color: #89AB93;*/
+/*	border: 1px black solid;*/
 	padding: 20px;
 }
 
 footer {
-	background-color: #FF957E;
+/*	background-color: #FF957E;*/
 	/*color: #89AB93;*/
-	border: 1px black solid;
+/*	border: 1px black solid;*/
 	padding: 20px;
 }
 
@@ -110,6 +109,7 @@ hr {
 
 #logo img {
 	opacity: 1;
+	width: 70%;
 }
 
 #aboutus {
@@ -124,4 +124,38 @@ hr {
 
 #etsy {
 	color: #ffffff;
+}
+
+/*
+Unit 6*/
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
